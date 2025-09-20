@@ -1,4 +1,4 @@
-const apiKey = '9988c05708177e58dcedf3677c1f07cb'; 
+const apiKey = 'YOUR_API_KEY'; 
 const searchBtn = document.getElementById("searchBtn");
 
 searchBtn.addEventListener("click", function () {
@@ -29,3 +29,4 @@ function getWeather(city) {
       console.error("Fetch error:", error);
     });
 }
+
